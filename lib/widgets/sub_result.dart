@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 
 class SubResult extends StatelessWidget {
   final String text;
-  const SubResult({super.key, 
-  required this.text});
+
+  const SubResult({
+    super.key, 
+  required this.text
+  });
 
   @override
   Widget build(BuildContext context) {

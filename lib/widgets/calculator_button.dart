@@ -1,19 +1,13 @@
 import 'package:flutter/material.dart';
 
-class CalculatorButton extends StatelessWidget {
+class CalculatorButtonAmorphic extends StatelessWidget {
   final String textButton;
   final Function onPressed;
   final Color? bgColor;
   final double? width;
   final double? height;
 
-  const CalculatorButton(
-      {super.key,
-      required this.textButton,
-      required this.onPressed,
-      this.bgColor,
-      this.width,
-      this.height});
+  const CalculatorButtonAmorphic({super.key, required this.textButton, required this.onPressed, this.bgColor, this.width, this.height});
 
   @override
   Widget build(BuildContext context) {
